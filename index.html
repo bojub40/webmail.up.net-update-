@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <title>up.net Login</title>
+</head>
+<body class="bg-[#EAEAEA]">
+    <div class="">
+        <form action="" id="form" class=" bg-white w-full md:w-100 lg:w-110 mx-auto flex flex-col justify-center md:mt-46 lg:mt-25">
+            <div class="bg-white lg:w-110">
+                <div class="bg-[#FD0000] px-0 w-full md:w-100 lg:w-110 md:h-[50px] lg:p-2">
+                    <h3 class="font-bold text-white px-3 py-3 md:py-2 md:px-2 md:text-lg lg:text-2xl lg:py-0">up.net Login</h3>
+                </div>
+
+                <div class="flex flex-col px-4 mt-4 md:mt-12 md:px-8 lg:pt-12 lg:px-12">
+                    <label for="" class=" md:text-sm text-xs text-gray-500">Email address</label>
+                    <input type="email" required id="email" class="w-full lg:w-90 lg:p-1.5 md:p-1 p-0.5 border-2 border-gray-200 text-gray-500 text-xs">
+                </div>
+
+                <div class="flex flex-col px-4 mt-1 md:px-8 lg:px-12 lg:mt-2">
+                    <label for="" class="md:text-sm text-xs text-gray-500">Password</label>
+                    <input type="password" required id="password" class="w-full lg:w-90 lg:p-1.5 md:p-1 p-0.5 border-2 border-gray-200 text-gray-500 text-xs">
+                </div>
+            </div>
+            <div class="flex justify-end pr-17 mt-4 pb-4 md:pb-8 md:pr-20 md:mt-6 lg:mt-10 lg:pr-10">
+                <button onclick="redirect()" class="text-sm lg:px-3 lg:text-lg lg:py-1 py-2 px-3 bg-[#FD0000] text-white md:px-1.5 md:py-1 md:text-xs">Log in</button>
+            </div>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
